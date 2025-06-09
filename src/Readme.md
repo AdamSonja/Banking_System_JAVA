@@ -3,16 +3,16 @@ real-world banking operations. Designed with OOP principles, this
 project features class hierarchies for different account types, 
 transaction handling, and basic financial operations.
 
-🔧 Features
+---> Features
 
-🏦 BankAccount Superclass with shared attributes and methods
+--->BankAccount Superclass with shared attributes and methods
 
-💳 SavingsAccount & CurrentAccount subclasses
+--->SavingsAccount & CurrentAccount subclasses
 
-💸 Deposit and Withdraw operations with validation
+--->Deposit and Withdraw operations with validation
 
-📜 Transaction History stored using List<Transaction>
+--->Transaction History stored using List<Transaction>
 
-🔐 Encapsulation and Inheritance fully implemented
+--->Encapsulation and Inheritance fully implemented
 
-🚀 Ready to be extended with file storage, GUI, or database integration
+--->Ready to be extended with file storage, GUI, or database integration
