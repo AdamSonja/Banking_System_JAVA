@@ -19,7 +19,7 @@ public class UserKYC {
     private LocalDate kycSubmissionDate;
     private LocalDate kycApprovalDate;
     @OneToOne
-    @JoinColumn(name = "user_id",nullable = false,unique = true)
+    @JoinColumn(name = "User_id",nullable = false,unique = true)
 
     private UserKYC UserKYC; // PENDING, VERIFIED, REJECTED
 

@@ -14,14 +14,14 @@ import java.time.LocalDate;
 @Builder
 public class Nominee {
 
-    @Id
+    @Id@GeneratedValue(strategy = GenerationType.IDENTITY)
     private  Long id;
     private String nomineeName;
     private String nomineeRelationship;
     private String nomineeAmount;
 
 
-    @ManyToOne @JoinColumn(name = "user_id",nullable = false,unique = true)
+    @ManyToOne @JoinColumn(name = "user_id",nullable = false)
     private UsersProfile user;
     private  String fullname;
     private NomineeRelation nomineerelation;
